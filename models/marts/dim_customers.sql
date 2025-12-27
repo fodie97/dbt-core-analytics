@@ -26,7 +26,7 @@ customer_orders as (
 ),
 
 
-final as (
+finals as (
 
     select
         customers.customer_id,
@@ -42,4 +42,4 @@ final as (
 
 )
 
-select * from final
+select * from finals
